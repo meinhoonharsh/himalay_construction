@@ -10,11 +10,12 @@
                     <div class="hero-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Welcome to HouseBhopal</h3>
-                            <h1 class="text-anime-style-3" data-cursor="-opaque">Building dreams with precision and excellence
+                            <h1 class="text-anime-style-3" data-cursor="-opaque">Building Your Dreams in the Heart of India
                             </h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">At HouseBhopal, we specialize in transforming your
-                                visions into reality through exceptional craftsmanship and meticulous attention to detail.
-                                With over a decade of experience and an unwavering commitment to quality.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">At HouseBhopal, we transform your visions into
+                                reality with exceptional craftsmanship and unwavering commitment to quality. With over a
+                                decade of experience in Bhopal's construction industry, we specialize in creating homes and
+                                spaces that stand the test of time.</p>
                         </div>
 
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
@@ -51,12 +52,11 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Crafting structures that last a lifetime
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Crafting Enduring Structures in Bhopal
                             </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Crafting structures that last a lifetime requires
-                                a holistic approach that integrates advanced materials, resilient design, regular
-                                maintenance, and sustainability practices. By learning from historical examples and
-                                leveraging modern technology.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Our approach integrates advanced materials,
+                                resilient design, and sustainable practices to ensure longevity. By leveraging modern
+                                technology and local expertise, we build homes that last a lifetime.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -73,15 +73,15 @@
                         <!-- About Content Footer Start -->
                         <div class="about-content-footer wow fadeInUp" data-wow-delay="0.75s">
                             <div class="about-footer-btn">
-                                <a href="#" class="btn-default">get free quote</a>
+                                <a href="/contact" class="btn-default">get free quote</a>
                             </div>
                             <div class="about-contact-support">
                                 <div class="icon-box">
                                     <img src="/builtup/images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="about-support-content">
-                                    <p>call support center 24X7</p>
-                                    <h3>+1 809 120 6705</h3>
+                                    <p>call for enquiry</p>
+                                    <h3>+91 8770377846</h3>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">our services</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Our construction services</h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Construction Solutions in Bhopal</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">We specialize in a wide range of construction
                                 services, including residential, commercial, and industrial projects.</p>
                         </div>
@@ -276,8 +276,8 @@
                         <h3 class="wow fadeInUp">why choose us?</h3>
                         <h2 class="text-anime-style-3" data-cursor="-opaque">Why we're your best choice</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">Developed in close collaboration with our partners
-                            and clients, combines industry knowledge, decades of experience, ingenuity and adaptability to
-                            deliver excellence to our clients.</p>
+                            and clients, our approach combines industry knowledge, decades of experience, ingenuity, and
+                            adaptability to deliver excellence.</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -292,8 +292,7 @@
                         </div>
                         <div class="why-choose-content">
                             <h3>innovation solutions</h3>
-                            <p>Simple actions make a difference. It starts and ends with each employee striving to work
-                                safer every single day so they can return.</p>
+                            <p>Implementing creative strategies to meet unique project challenges.</p>
                         </div>
                         <div class="why-choose-counter">
                             <h3><span class="counter">800</span>+</h3>
@@ -321,8 +320,7 @@
                         </div>
                         <div class="why-choose-content">
                             <h3>quality craftsmanship</h3>
-                            <p>Simple actions make a difference. It starts and ends with each employee striving to work
-                                safer every single day so they can return.</p>
+                            <p>Committed to superior workmanship in every project.</p>
                         </div>
                         <div class="why-choose-counter">
                             <h3><span class="counter">800</span>+</h3>
@@ -350,8 +348,7 @@
                         </div>
                         <div class="why-choose-content">
                             <h3>expertise and experience</h3>
-                            <p>Simple actions make a difference. It starts and ends with each employee striving to work
-                                safer every single day so they can return.</p>
+                            <p>We have already built dream homes for many happy families.</p>
                         </div>
                         <div class="why-choose-counter">
                             <h3><span class="counter">800</span>+</h3>
@@ -559,13 +556,13 @@
                     <div class="section-title">
                         <h2 class="text-anime-style-3" data-cursor="-opaque">Let's bulid something great together!</h2>
                         <p class="wow fadeInUp">Don't wait any longer to bring your construction dreams to life. Partner
-                            with Builtup and experience unparalleled service and quality.</p>
+                            with HouseBhopal and experience unparalleled service and quality.</p>
                     </div>
                     <!-- Section Title End -->
 
                     <!-- Section Btn Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default btn-large">get free quote</a>
+                        <a href="/contact" class="btn-default btn-large">get free quote</a>
                     </div>
                     <!-- Section Btn End -->
                 </div>
