@@ -24,10 +24,10 @@
 <meta name="theme-color" content="#1e88e5">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logos/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logos/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logos/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/images/logos/favicons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/builtup/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/builtup/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/builtup/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/builtup/images/favicons/site.webmanifest">
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:type" content="{{ $page['og_type'] ?? 'website' }}">
@@ -35,7 +35,7 @@
 <meta property="og:description"
     content="{{ $page['description'] ?? 'Looking for the best construction company or builder in Bhopal? HouseBhopal provides top-quality home and apartment construction with expert civil engineers.' }}">
 <meta property="og:url" content="{{ $page['url'] ?? 'https://housebhopal.com' }}">
-<meta property="og:image" content="{{ $page['image'] ?? 'https://housebhopal.com/assets/images/logos/logo-200.png' }}">
+<meta property="og:image" content="{{ $page['image'] ?? 'https://housebhopal.com/builtup/images/logo-200.png' }}">
 <meta property="og:site_name" content="HouseBhopal">
 <meta property="og:locale" content="en_US">
 
@@ -45,7 +45,7 @@
 <meta name="twitter:description"
     content="{{ $page['description'] ?? 'Find the best construction services in Bhopal with HouseBhopal. We specialize in civil construction, home building, and apartment development.' }}">
 <meta name="twitter:image"
-    content="{{ $page['image'] ?? 'https://housebhopal.com/assets/images/logos/logo-200.png' }}">
+    content="{{ $page['image'] ?? 'https://housebhopal.com/builtup/images/logo-200.png' }}">
 <meta name="twitter:site" content="@housebhopal">
 <meta name="twitter:creator" content="@housebhopal">
 
@@ -57,7 +57,7 @@
     "@type": "WebSite",
     "name": "HouseBhopal",
     "url": "https://housebhopal.com",
-    "logo": "https://housebhopal.com/assets/images/logos/logo-200.png",
+    "logo": "https://housebhopal.com/builtup/images/logo-200.png",
     "sameAs": [
         "https://www.linkedin.com/company/housebhopal",
         "https://www.instagram.com/housebhopal"
