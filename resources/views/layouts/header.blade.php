@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="/builtup/images/logo.png" alt="Logo" style="height: 45px;">
                 </a>
                 <!-- Logo End -->
@@ -13,11 +13,11 @@
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
                             {{-- 
-                            <li class="nav-item submenu"><a class="nav-link" href="index.html">Home</a>
+                            <li class="nav-item submenu"><a class="nav-link" href="#">Home</a>
                                 <ul class="sub-menu">
-                                    <li class="nav-item"><a class="nav-link" href="index-3.html">Home - Image</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index-2.html">Home - Slider</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index-4.html">Home - Video</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home - Image</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home - Slider</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home - Video</a></li>
                                 </ul>
                             </li>
                             --}}
@@ -31,7 +31,7 @@
                     </div>
                     <!-- Let’s Start Button Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="contact.html" class="btn-default">Contact Us</a>
+                        <a href="/contact" class="btn-default">Contact Us</a>
                     </div>
                     <!-- Let’s Start Button End -->
                 </div>
