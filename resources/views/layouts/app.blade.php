@@ -1,24 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<!-- Mirrored from demo.awaikenthemes.com/html-preview/builtup/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jan 2025 13:42:44 GMT -->
+<html lang="en">
 <head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-	<title>Builtup - Construction HTML Template</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="/builtup/images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
+    
+    @include('layouts.meta')
+
+    <!-- Bootstrap Css -->
 	<link href="/builtup/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- SlickNav Css -->
 	<link href="/builtup/css/slicknav.min.css" rel="stylesheet">
@@ -56,14 +42,14 @@
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">welcome to builtup</h3>
+                            <h3 class="wow fadeInUp">Welcome to HouseBhopal</h3>
                             <h1 class="text-anime-style-3" data-cursor="-opaque">Building dreams with precision and excellence</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">we specialize in turning visions into reality with exceptional craftsmanship and meticulous attention to detail. With years of experience and a commitment to quality.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">At HouseBhopal, we specialize in transforming your visions into reality through exceptional craftsmanship and meticulous attention to detail. With over a decade of experience and an unwavering commitment to quality.</p>
                         </div>
 
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                            <a href="#" class="btn-default">get started</a>
-                            <a href="#" class="btn-default btn-highlighted">view Projects</a>
+                            <a href="/contact" class="btn-default">get started</a>
+                            <a href="/projects" class="btn-default btn-highlighted">view Projects</a>
                         </div>
                     </div>
                     <!-- Hero Content End -->
