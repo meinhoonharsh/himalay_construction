@@ -11,8 +11,8 @@
                             <img src="/builtup/images/icon-phone.svg" alt="">
                         </div>
                         <div class="contact-info-content">
-                            <p>call support center 24/7</p>
-                            <h3>+1 809 120 6705</h3>
+                            <p>call us for enquiry</p>
+                            <h3>+91 8770377846</h3>
                         </div>
                     </div>
                     <!-- Contact Info End -->
@@ -24,7 +24,7 @@
                         </div>
                         <div class="contact-info-content">
                             <p>write to us</p>
-                            <h3>info@domain.com</h3>
+                            <h3>hi@housebhopal.com</h3>
                         </div>
                     </div>
                     <!-- Contact Info End -->

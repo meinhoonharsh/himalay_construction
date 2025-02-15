@@ -9,6 +9,6 @@
     @include('sections.cta')
     @include('sections.testimonials')
     @include('sections.faqs')
-    @include('sections.blog')
+    {{-- @include('sections.blog') --}}
     @include('sections.contact')
 @endsection
