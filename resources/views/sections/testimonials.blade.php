@@ -1,3 +1,49 @@
+@php
+    $testimonials = [
+        [
+            'image' => '/builtup/images/author-1.jpg',
+            'name' => 'Rajesh Sharma',
+            'position' => 'Homeowner',
+            'review' =>
+                'HouseBhopal ne hamara sapna sakar kar diya! Construction quality aur finishing behatareen hai. Puri team highly professional thi. Bahut khush hoon apne naye ghar se.',
+            'rating' => 5,
+        ],
+        [
+            'image' => '/builtup/images/author-2.jpg',
+            'name' => 'Pooja Verma',
+            'position' => 'IT Professional',
+            'review' =>
+                'I wanted a modern yet budget-friendly home, and HouseBhopal ne bilkul waisa hi ghar bana kar diya! Timely delivery aur top-notch quality!',
+            'rating' => 5,
+        ],
+        [
+            'image' => '/builtup/images/author-3.jpg',
+            'name' => 'Amit Tiwari',
+            'position' => 'Businessman',
+            'review' =>
+                'Professionalism aur dedication dekhkar bahut accha laga. HouseBhopal ne hamari expectations se badhkar kaam kiya. Strong structure aur stylish interiors!',
+            'rating' => 5,
+        ],
+        [
+            'image' =>  '/builtup/images/author-4.jpg',
+            'name' => 'Neha Mishra',
+            'position' => 'Professor',
+            'review' =>
+                'Affordable pricing, samay par delivery, aur high-quality materials ka use. Pure process me transparency thi, jo bahut acchi baat hai. Highly recommended!',
+            'rating' => 5,
+        ],
+        [
+            'image' => '/builtup/images/author-5.jpg',
+            'name' => 'Suresh Yadav',
+            'position' => 'Government Employee',
+            'review' =>
+                'Mujhe durable aur spacious ghar chahiye tha, aur HouseBhopal ne mujhse behtar design propose kiya. Puri family khush hai. Dhanyawad!',
+            'rating' => 5,
+        ],
+    ];
+
+@endphp
+
 <!-- Our Testiminial Start -->
 <div class="our-testimonial">
     <div class="container">
@@ -20,137 +66,37 @@
                 <div class="testimonial-slider">
                     <div class="swiper">
                         <div class="swiper-wrapper" data-cursor-text="Drag">
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+                            @foreach ($testimonials as $testimonial)
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                @for ($i = 0; $i < $testimonial['rating']; $i++)
+                                                    <i class="fa-solid fa-star"></i>
+                                                @endfor
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>{{ $testimonial['review'] }}</p>
+                                            </div>
                                         </div>
-                                        <div class="testimonial-content">
-                                            <p>We specialize in a wide range of construction services, including
-                                                residential, commercial, and industrial projects. From initial design to
-                                                final inspection, we work closely with our clients to understand their
-                                                unique needs and vision.</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="/builtup/images/author-1.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>johan duo</h3>
-                                            <p>project manager</p>
+                                        <div class="testimonial-body">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="{{ $testimonial['image'] }}" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3>{{ $testimonial['name'] }}</h3>
+                                                <p>{{ $testimonial['position'] }}</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
+                                <!-- Testimonial Slide End -->
+                            @endforeach
 
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>We specialize in a wide range of construction services, including
-                                                residential, commercial, and industrial projects. From initial design to
-                                                final inspection, we work closely with our clients to understand their
-                                                unique needs and vision.</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="/builtup/images/author-2.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>Jane Smith</h3>
-                                            <p>interior designer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
 
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>We specialize in a wide range of construction services, including
-                                                residential, commercial, and industrial projects. From initial design to
-                                                final inspection, we work closely with our clients to understand their
-                                                unique needs and vision.</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="/builtup/images/author-3.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>chris martinez</h3>
-                                            <p>logistics coordinator</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
-
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>We specialize in a wide range of construction services, including
-                                                residential, commercial, and industrial projects. From initial design to
-                                                final inspection, we work closely with our clients to understand their
-                                                unique needs and vision.</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="/builtup/images/author-4.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>alis white</h3>
-                                            <p>structural engineer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
