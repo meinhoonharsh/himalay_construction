@@ -13,7 +13,7 @@
 
                 <!-- Section Btn Start -->
                 <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                    <a href="/contact" class="btn-default btn-large">get free quote</a>
+                    <a href="/#contact" class="btn-default btn-large">get free quote</a>
                 </div>
                 <!-- Section Btn End -->
             </div>

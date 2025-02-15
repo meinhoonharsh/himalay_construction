@@ -25,13 +25,13 @@
                             <li class="nav-item"><a class="nav-link" href="/#services">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="/faqs">FAQs</a></li>
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="/contact">Contact Us</a>
+                            <li class="nav-item highlighted-menu"><a class="nav-link" href="/#contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                     <!-- Let’s Start Button Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="/contact" class="btn-default">Contact Us</a>
+                        <a href="/#contact" class="btn-default">Contact Us</a>
                     </div>
                     <!-- Let’s Start Button End -->
                 </div>

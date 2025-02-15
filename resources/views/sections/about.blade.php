@@ -41,7 +41,7 @@
                     <!-- About Content Footer Start -->
                     <div class="about-content-footer wow fadeInUp" data-wow-delay="0.75s">
                         <div class="about-footer-btn">
-                            <a href="/contact" class="btn-default">get free quote</a>
+                            <a href="/#contact" class="btn-default">get free quote</a>
                         </div>
                         <div class="about-contact-support">
                             <div class="icon-box">

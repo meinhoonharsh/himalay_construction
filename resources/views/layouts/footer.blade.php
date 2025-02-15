@@ -36,7 +36,7 @@
                         <li><a href="#services">services</a></li>
                         <li><a href="/projects">projects</a></li>
                         <li><a href="/faqs">faqs</a></li>
-                        <li><a href="/contact">contact us</a></li>
+                        <li><a href="/#contact">contact us</a></li>
                     </ul>
                 </div>
                 <!-- Footer Links End -->

@@ -1,5 +1,5 @@
 <!-- Contact Us Section Start -->
-<div class="contact-us">
+<div class="contact-us" id="contact">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-5">
@@ -32,7 +32,7 @@
                     <!-- Contact Info Image Start -->
                     <div class="contact-info-image">
                         <figure>
-                            <img src="/builtup/images/contact-info-img.png" alt="">
+                            <img src="/builtup/images/#contact-info-img.png" alt="">
                         </figure>
                     </div>
                     <!-- Contact Info Image End -->

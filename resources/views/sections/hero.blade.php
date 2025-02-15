@@ -16,7 +16,7 @@
                     </div>
 
                     <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="/contact" class="btn-default">get started</a>
+                        <a href="/#contact" class="btn-default">get started</a>
                         <a href="/projects" class="btn-default btn-highlighted">view Projects</a>
                     </div>
                 </div>
