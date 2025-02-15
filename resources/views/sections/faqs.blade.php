@@ -1,3 +1,59 @@
+@php
+    $faqs = [
+        [
+            'question' => 'What services does HouseBhopal offer?',
+            'answer' =>
+                'HouseBhopal provides complete construction solutions, including home building, renovation, interior designing, and civil works.',
+        ],
+        [
+            'question' => 'How long does it take to build a house?',
+            'answer' =>
+                'The construction time depends on the project size and design. Generally, a standard home takes 6-12 months to complete.',
+        ],
+        [
+            'question' => 'Can I customize my house design?',
+            'answer' => 'Yes, we offer fully customizable home designs to match your preferences and requirements.',
+        ],
+        [
+            'question' => 'Do you provide construction material, or do we need to arrange it?',
+            'answer' =>
+                'We handle everything, from sourcing high-quality materials to construction, so you don’t have to worry about anything.',
+        ],
+        [
+            'question' => 'Is HouseBhopal affordable?',
+            'answer' =>
+                'Yes, we offer cost-effective solutions with transparent pricing, ensuring high-quality construction within your budget.',
+        ],
+        [
+            'question' => 'Do you provide construction services only in Bhopal?',
+            'answer' =>
+                'Currently, we focus on Bhopal and nearby areas, but for larger projects, we can discuss location feasibility.',
+        ],
+        [
+            'question' => 'Do you help with government approvals and legal permissions?',
+            'answer' =>
+                'Yes, we assist in obtaining necessary approvals, permissions, and clearances for hassle-free construction.',
+        ],
+        [
+            'question' => 'How can I get a quotation for my house construction?',
+            'answer' =>
+                'You can contact us with your requirements, and our team will provide a detailed cost estimate based on your needs.',
+        ],
+        [
+            'question' => 'What makes HouseBhopal different from other builders?',
+            'answer' =>
+                'We focus on quality, timely delivery, and transparent pricing while ensuring customer satisfaction at every step.',
+        ],
+        [
+            'question' => 'How can I contact HouseBhopal?',
+            'answer' => 'You can reach us via phone, email, or visit our office in Bhopal for a consultation.',
+        ],
+    ];
+
+    // Select 4 faqs
+    $faqs = array_slice($faqs, 0, 4);
+
+@endphp
 <!-- Our FAQs Section Start -->
 <div class="our-faqs">
     <div class="container">
@@ -70,77 +126,28 @@
             <div class="col-lg-7">
                 <!-- FAQ Accordion Start -->
                 <div class="faq-accordion" id="accordion">
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.25s">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Do you offer a free, no obligation quotation?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Our post-construction services gives you peace of mind knowing that we are still here
-                                    for you even after.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What services do you offer?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Our post-construction services gives you peace of mind knowing that we are still here
-                                    for you even after.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.75s">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What types of projects do you specialize in?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Our post-construction services gives you peace of mind knowing that we are still here
-                                    for you even after.</p>
+                    @foreach ($faqs as $index => $faq)
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="{{ 1.25 + $index * 0.25 }}s">
+                            <h2 class="accordion-header" id="heading{{ $index + 5 }}">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse{{ $index + 5 }}" aria-expanded="false"
+                                    aria-controls="collapse{{ $index + 5 }}">
+                                    {{ $faq['question'] }}
+                                </button>
+                            </h2>
+                            <div id="collapse{{ $index + 5 }}" class="accordion-collapse collapse"
+                                aria-labelledby="heading{{ $index + 5 }}" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>{{ $faq['answer'] }}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
+                        <!-- FAQ Item End -->
+                    @endforeach
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
-                        <h2 class="accordion-header" id="headingfour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                How do I start a project with your company?
-                            </button>
-                        </h2>
-                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
-                            data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Our post-construction services gives you peace of mind knowing that we are still here
-                                    for you even after.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- FAQ Item End -->
                 </div>
                 <!-- FAQ Accordion End -->
             </div>
