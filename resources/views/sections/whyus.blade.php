@@ -27,8 +27,8 @@
                         <p>Implementing creative strategies to meet unique project challenges.</p>
                     </div>
                     <div class="why-choose-counter">
-                        <h3><span class="counter">800</span>+</h3>
-                        <p>project complated</p>
+                        <h3><span class="counter">25</span>+</h3>
+                        <p>projects completed</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->
@@ -55,8 +55,8 @@
                         <p>Committed to superior workmanship in every project.</p>
                     </div>
                     <div class="why-choose-counter">
-                        <h3><span class="counter">800</span>+</h3>
-                        <p>project complated</p>
+                        <h3><span class="counter">300</span>+</h3>
+                        <p>families living happily</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->
@@ -83,8 +83,8 @@
                         <p>We have already built dream homes for many happy families.</p>
                     </div>
                     <div class="why-choose-counter">
-                        <h3><span class="counter">800</span>+</h3>
-                        <p>project complated</p>
+                        <h3><span class="counter">15</span>+</h3>
+                        <p>Years of excellence</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->

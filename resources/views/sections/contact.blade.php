@@ -32,7 +32,7 @@
                     <!-- Contact Info Image Start -->
                     <div class="contact-info-image">
                         <figure>
-                            <img src="/builtup/images/#contact-info-img.png" alt="">
+                            <img src="/builtup/images/contact-info-img.png" alt="">
                         </figure>
                     </div>
                     <!-- Contact Info Image End -->
