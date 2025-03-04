@@ -50,7 +50,7 @@
                     </div>
                     <!-- Section Title End -->
 
-                    <form id="contactForm" action="#" method="POST" data-toggle="validator">
+                    <form id="contactForm" action="#" method="POST" data-toggle="validator" netlify>
                         <div class="row">
                             <div class="form-group col-md-6 mb-4">
                                 <input type="text" name="name" class="form-control" id="name"
