@@ -50,7 +50,7 @@
                     </div>
                     <!-- Section Title End -->
 
-                    <form id="contactForm"  method="POST" data-toggle="validator" netlify>
+                    <form id="contactForm" method="POST" data-toggle="validator" netlify>
                         <div class="row">
                             <div class="form-group col-md-6 mb-4">
                                 <input type="text" name="name" class="form-control" id="name"
@@ -93,4 +93,26 @@
         </div>
     </div>
 </div>
-<!-- Contact Us Section End -->
+
+@push('scripts')
+    <script>
+        const handleSubmit = event => {
+            event.preventDefault();
+
+            const myForm = event.target;
+            const formData = new FormData(myForm);
+
+            fetch("/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    body: new URLSearchParams(formData).toString()
+                })
+                .then(() => console.log("Form successfully submitted"))
+                .catch(error => alert(error));
+        };
+
+        document.querySelector("form").addEventListener("submit", handleSubmit);
+    </script>
+@endpush

@@ -20,6 +20,10 @@
 	<link rel="stylesheet" href="/builtup/css/mousecursor.css">
 	<!-- Main Custom Css -->
 	<link href="/builtup/css/custom.css" rel="stylesheet" media="screen">
+
+    @yield('styles')
+    @stack('styles')
+
 </head>
 <body>
 
@@ -68,5 +72,10 @@
     <!-- Main Custom js file -->
     <script src="/builtup/js/function.js"></script>
 	<script src="../../assets/js/theme-panel.js"></script>
+
+
+    @yield('scripts')
+    @stack('scripts')
+
 </body>
 </html>
