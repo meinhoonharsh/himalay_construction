@@ -112,6 +112,8 @@
 	<link rel="stylesheet" href="/builtup/css/mousecursor.css">
 	<!-- Main Custom Css -->
 	<link href="/builtup/css/custom.css" rel="stylesheet" media="screen">
+
+        
 </head>
 <body>
 
@@ -1117,7 +1119,7 @@
                     </div>
                     <!-- Section Title End -->
 
-                    <form id="contactForm"  method="POST" data-toggle="validator" netlify>
+                    <form id="contactForm" method="POST" data-toggle="validator" netlify>
                         <div class="row">
                             <div class="form-group col-md-6 mb-4">
                                 <input type="text" name="name" class="form-control" id="name"
@@ -1160,7 +1162,7 @@
         </div>
     </div>
 </div>
-<!-- Contact Us Section End -->
+
 
     <!-- Footer Start -->
 <footer class="main-footer">
@@ -1306,5 +1308,28 @@
     <!-- Main Custom js file -->
     <script src="/builtup/js/function.js"></script>
 	<script src="../../assets/js/theme-panel.js"></script>
+
+
+            <script>
+        const handleSubmit = event => {
+            event.preventDefault();
+
+            const myForm = event.target;
+            const formData = new FormData(myForm);
+
+            fetch("/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    body: new URLSearchParams(formData).toString()
+                })
+                .then(() => console.log("Form successfully submitted"))
+                .catch(error => alert(error));
+        };
+
+        document.querySelector("form").addEventListener("submit", handleSubmit);
+    </script>
+
 </body>
 </html>
