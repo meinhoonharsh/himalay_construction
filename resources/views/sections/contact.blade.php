@@ -58,11 +58,6 @@
                                 <div class="help-block with-errors"></div>
                             </div>
 
-                            <div class="form-group col-md-6 mb-4">
-                                <input type="email" name="email" class="form-control" id="email"
-                                    placeholder="Enter Your email" required="">
-                                <div class="help-block with-errors"></div>
-                            </div>
 
                             <div class="form-group col-md-6 mb-4">
                                 <input type="text" name="phone" class="form-control" id="phone"
@@ -70,10 +65,15 @@
                                 <div class="help-block with-errors"></div>
                             </div>
 
-                            <div class="form-group col-md-6 mb-4">
-                                <input type="text" name="website" class="form-control" id="website"
-                                    placeholder="Subject" required="">
-                                <div class="help-block with-errors"></div>
+                            <div class="form-group col-md-12 mb-4">
+                                {{-- query --}}
+                                <select name="query" class="form-control" id="query" required="">
+                                    <option value="">Select Query</option>
+                                    <option value="House Construction">House Construction</option>
+                                    <option value="House Renovation">House Renovation</option>
+                                    <option value="Free Consultation">Free Consultation</option>
+                                    <option value="Other">Other</option>
+                                </select>
                             </div>
 
                             <div class="form-group col-md-12 mb-5">
@@ -95,6 +95,7 @@
 </div>
 
 @push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         const handleSubmit = event => {
             event.preventDefault();
@@ -109,9 +110,22 @@
                     },
                     body: new URLSearchParams(formData).toString()
                 })
-                .then(() => console.log("Form successfully submitted"))
+                .then(() => {
+                    myForm.reset();
+
+                    Swal.fire({
+                        title: 'Success!',
+                        text: 'Your message has been sent successfully.',
+                        icon: 'success',
+                        confirmButtonText: 'Okay',
+                        confirmButtonColor: 'var(--primary-color)',
+                        iconColor: 'var(--accent-color)'
+                    })
+                })
                 .catch(error => alert(error));
         };
+
+
 
         document.querySelector("form").addEventListener("submit", handleSubmit);
     </script>
